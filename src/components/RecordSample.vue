@@ -47,7 +47,7 @@
 
 <script setup>
 import { ref, onMounted } from 'vue';
-import { VoiceRecorder } from 'capacitor-voice-recorder';
+import { VoiceRecorder } from 'capacitor-voice-rec';
 
 const recordIsAllowed = ref(false);
 const currentStatus = ref('NONE');
